@@ -1,67 +1,77 @@
-# 🚀 CI/CD Pipeline with GitHub Actions
+# 🚀 CI/CD Pipeline with GitHub Actions 🇬🇧
 
-This repository demonstrates a professional CI/CD pipeline setup for a Node.js application using GitHub Actions.
+## 📋 Table of Contents
+- [Project Overview](#project-overview)
+- [Pipeline Steps](#pipeline-steps)
+- [How to Run Locally](#how-to-run-locally)
+- [Author](#author)
 
-## 📦 Project Structure
+## 📦 Project Overview
+This repository demonstrates a professional CI/CD pipeline for a Node.js app using GitHub Actions.
 
-```
-ci-cd-github-actions/
-├── app/
-│   ├── index.js          # Simple Express.js app
-│   └── package.json      # Start, test, lint scripts
-└── .github/
-    └── workflows/
-        └── ci.yml        # GitHub Actions pipeline
-```
+**Stack:**
+- Node.js + Express
+- GitHub Actions for CI/CD
 
-## 🔁 Pipeline Overview
-
-The CI pipeline is triggered on:
-- Push to `main` branch
-- Pull requests to `main`
-
-It performs the following steps:
+## 🔁 Pipeline Steps
 1. Checkout the repository
-2. Set up Node.js
+2. Setup Node.js
 3. Install dependencies
-4. Run lint checks
+4. Lint code
 5. Run tests
 6. Confirm successful build
 
-## 🛠️ Technologies Used
-
-- **Node.js** with **Express**
-- **GitHub Actions** for CI/CD
-- (Optional in future: Docker, Terraform, deployment scripts...)
-
-## ✅ How to Run Locally
-
+## ▶️ How to Run Locally
 ```bash
-# Navigate to the app directory
 cd app
-
-# Install dependencies
 npm install
-
-# Start the app
 npm start
-
-# Run tests
-npm test
 ```
-
-Then open your browser at: [http://localhost:3000](http://localhost:3000)
+Access: http://localhost:3000
 
 ## 📊 CI Status
-
 ![CI](https://github.com/zakaria-devops/ci-cd-github-actions/actions/workflows/ci.yml/badge.svg)
 
 ## 💼 Author
-
-**Zakaria Msala**  
-Freelance DevOps Engineer | CI/CD | Cloud | Automation  
-📫 [LinkedIn](https://www.linkedin.com/in/zakaria-msala-86758788/) – [GitHub](https://github.com/zakaria-devops)
+Zakaria Msala – Freelance DevOps Engineer  
+[LinkedIn](https://linkedin.com/in/zakaria-msala)
 
 ---
 
-> Want to work with me? I'm available for freelance DevOps missions – 100% remote.
+# 🚀 Pipeline CI/CD avec GitHub Actions 🇫🇷
+
+## 📋 Sommaire
+- [Présentation du projet](#présentation-du-projet)
+- [Étapes du pipeline](#étapes-du-pipeline)
+- [Exécution en local](#exécution-en-local)
+- [Auteur](#auteur-1)
+
+## 📦 Présentation du projet
+Ce dépôt montre un pipeline CI/CD professionnel pour une application Node.js utilisant GitHub Actions.
+
+**Stack :**
+- Node.js + Express
+- GitHub Actions pour CI/CD
+
+## 🔁 Étapes du pipeline
+1. Récupération du dépôt
+2. Configuration de Node.js
+3. Installation des dépendances
+4. Lint du code
+5. Exécution des tests
+6. Validation du build
+
+## ▶️ Exécution en local
+```bash
+cd app
+npm install
+npm start
+```
+Accès : http://localhost:3000
+
+## 📊 Statut CI
+![CI](https://github.com/zakaria-devops/ci-cd-github-actions/actions/workflows/ci.yml/badge.svg)
+
+## 💼 Auteur
+Zakaria Msala – Ingénieur DevOps Freelance  
+[LinkedIn](https://linkedin.com/in/zakaria-msala)
